@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node drills.js",
-    "dev": "nodemon drills.js",
+    "start": "node blogful.js",
+    "dev": "nodemon blogful.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
